@@ -27,7 +27,7 @@
     "ivome/graphql-relay-php": "0.6.0"
   },
   "require-dev": {
-    "lucatume/wp-browser": "^2.4",
+    "hairandbeardguy/wp-browser": "^2.4",
     "codeception/module-asserts": "^1.0",
     "codeception/module-phpbrowser": "^1.0",
     "codeception/module-webdriver": "^1.0",
@@ -48,6 +48,20 @@
     "simpod/php-coveralls-mirror": "^3.0",
     "phpstan/extension-installer": "^1.1"
   },
+  "repositories": [
+    {
+    "type": "package",
+    "package": {
+      "name": "hairandbeardguy/wp-browser",
+      "version": "2.4.0",
+      "type": "wordpress-plugin",
+      "dist": {
+        "type": "zip",
+        "url": "https://github.com/HairAndBeardGuy/wp-browser/archive/master.zip"
+      }
+    }
+  }
+],
   "config": {
     "optimize-autoloader": true,
     "process-timeout": 0
